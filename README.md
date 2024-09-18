@@ -15,9 +15,9 @@ You are invited to design and implement the above data warehouse in order to inc
 | insday           | integer       | Inspection`s day              |
 | insweekday       | integer       | Inspection`s weekday          |
 | inscode          | integer       | Inspection`s type code        |
-| instype          | nvarcahr(100) | Inspection`s type             |
+| instype          | nvarchar(100) | Inspection`s type             |
 | criticalIssue    | integer       | Number of critical issues     |
 | nonCriticalIssue | integer       | Number of non critical issues |
 | vcode            | integer       | Violation code                |
-| vdescription     | nvarcahr(255) | Violation description         |
-| vcategory        | nvarcahr(255) | Violation category            |
+| vdescription     | nvarchar(255) | Violation description         |
+| vcategory        | nvarchar(255) | Violation category            |
