@@ -1,2 +1,8 @@
-# StackOverflow-database
-Implementation of StackOverflow database, which contains questions and answers on a wide range of topics related to computer programming. Essentially, it is a simplified version that implements part of the logical schema of the actual website's database and contains test data for the years 2008 through 2010.
+# Inspections-database
+Implementation of health inpsections database, the records are reported from United States Department of Health and Human Services.
+
+The public health service is interested in developing a repository for extracting useful information about inspection data. The requirements of the public health service focus, among other things, on the breakdown of the number of inspections and violations by type of inspection, category of violation, region, as well as any combination thereof. It goes without saying that in the analysis of the data the time factor should also be taken into account so that the service is able to produce statistical reports from the scope of the inspections by year, month, day, etc.
+
+You are invited to design and implement the above data warehouse in order to increase the efficiency of conducting useful statistics. Then feed the warehouse with the data from the inspections_data.txt file and run some queries to produce useful statistics. You will implement the data warehouse using the DBMS SQL Server.
+
+
