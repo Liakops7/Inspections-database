@@ -5,4 +5,19 @@ The public health service is interested in developing a repository for extractin
 
 You are invited to design and implement the above data warehouse in order to increase the efficiency of conducting useful statistics. Then feed the warehouse with the data from the inspections_data.txt file and run some queries to produce useful statistics. You will implement the data warehouse using the DBMS SQL Server.
 
-
+| rid              | integer       | Restaurant`s code             |
+|------------------|---------------|-------------------------------|
+| lat              | float         | Latitude                      |
+| lon              | float         | Lognitude                     |
+| insdate          | date          | Inspection`s date             |
+| insyear          | integer       | Inspection`s year             |
+| insmonth         | integer       | Inspection`s month            |
+| insday           | integer       | Inspection`s day              |
+| insweekday       | integer       | Inspection`s weekday          |
+| inscode          | integer       | Inspection`s type code        |
+| instype          | nvarcahr(100) | Inspection`s type             |
+| criticalIssue    | integer       | Number of critical issues     |
+| nonCriticalIssue | integer       | Number of non critical issues |
+| vcode            | integer       | Violation code                |
+| vdescription     | nvarcahr(255) | Violation description         |
+| vcategory        | nvarcahr(255) | Violation category            |
