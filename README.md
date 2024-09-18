@@ -1,4 +1,4 @@
-# Inspections-database
+# Inspections Database
 Implementation of health inpsections database, the records are reported from United States Department of Health and Human Services.
 
 The public health service is interested in developing a repository for extracting useful information about inspection data. The requirements of the public health service focus, among other things, on the breakdown of the number of inspections and violations by type of inspection, category of violation, region, as well as any combination thereof. It goes without saying that in the analysis of the data the time factor should also be taken into account so that the service is able to produce statistical reports from the scope of the inspections by year, month, day, etc.
